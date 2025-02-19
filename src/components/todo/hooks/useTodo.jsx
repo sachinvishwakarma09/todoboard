@@ -3,8 +3,9 @@ import axios from "axios";
 import { TODO_BASE_URL } from "../utils";
 
 const useTodo = () => {
+    
     const [todos, setTodos] = useState([]);
-    console.log({ todos })
+    
     useEffect(() => {
 
         const fetchTodos = async () => {
